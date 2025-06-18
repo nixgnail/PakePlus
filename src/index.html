@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PakePlus App</title>
-        <script type="module" src="/main.js" defer></script>
-    </head>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>17sucai - Letterfall</title>
+  <link rel="stylesheet" href="./style.css">
 
-    <body>
-        <main class="container">
-            <h1>Welcome to PakePlus</h1>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.163.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.163.0/examples/jsm/"
+    }
+  }
+</script>
+<!-- partial -->
+  <script type="module" src="./script.js"></script>
 
-            <form class="row" id="greet-form">
-                <input id="greet-input" placeholder="Enter a name..." />
-                <button type="submit">Greet</button>
-            </form>
-            <p id="greet-msg"></p>
-        </main>
-    </body>
+</body>
 </html>
